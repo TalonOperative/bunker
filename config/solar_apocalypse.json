@@ -1,0 +1,416 @@
+{
+  "apocalypseRandomTickSpeed": 3,
+  "phaseOneDay": 220.0,
+  "phaseOneSunSizeMultiplier": 2.0,
+  "turnToAirInsteadOfBurn": false,
+  "burnableBlockIdentifiers": [
+    "minecraft:cactus",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern",
+    "minecraft:melon",
+    "minecraft:hay_block",
+    "minecraft:mushroom_stem",
+    "minecraft:brown_mushroom",
+    "minecraft:brown_mushroom_block",
+    "minecraft:red_mushroom",
+    "minecraft:red_mushroom_block",
+    "minecraft:cocoa",
+    "minecraft:mangrove_propagule",
+    "minecraft:oak_sapling",
+    "minecraft:spruce_sapling",
+    "minecraft:birch_sapling",
+    "minecraft:jungle_sapling",
+    "minecraft:acacia_sapling",
+    "minecraft:cherry_sapling",
+    "minecraft:dark_oak_sapling",
+    "minecraft:sweet_berry_bush",
+    "minecraft:sugar_cane",
+    "minecraft:moss_block",
+    "minecraft:moss_carpet",
+    "minecraft:azalea",
+    "minecraft:flowering_azalea",
+    "minecraft:glow_lichen",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:spore_blossom",
+    "minecraft:cobweb",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:glass",
+    "minecraft:glass_pane"
+  ],
+  "burnableBlockTags": [
+    "minecraft:wooden_doors",
+    "minecraft:wooden_trapdoors",
+    "minecraft:beds"
+  ],
+  "burnableBlockClasses": [
+    "class_2261",
+    "class_2504",
+    "class_2506"
+  ],
+  "blockTransformationBlockToBlock": [
+    {
+      "blockOne": "minecraft:clay",
+      "blockTwo": "minecraft:terracotta"
+    },
+    {
+      "blockOne": "minecraft:mud",
+      "blockTwo": "minecraft:dirt"
+    },
+    {
+      "blockOne": "minecraft:muddy_mangrove_roots",
+      "blockTwo": "minecraft:dirt"
+    },
+    {
+      "blockOne": "minecraft:dirt_path",
+      "blockTwo": "minecraft:dirt"
+    },
+    {
+      "blockOne": "minecraft:grass_block",
+      "blockTwo": "minecraft:dirt"
+    },
+    {
+      "blockOne": "minecraft:podzol",
+      "blockTwo": "minecraft:dirt"
+    },
+    {
+      "blockOne": "minecraft:mycelium",
+      "blockTwo": "minecraft:dirt"
+    },
+    {
+      "blockOne": "minecraft:rooted_dirt",
+      "blockTwo": "minecraft:dirt"
+    },
+    {
+      "blockOne": "minecraft:farmland",
+      "blockTwo": "minecraft:dirt"
+    },
+    {
+      "blockOne": "minecraft:dirt",
+      "blockTwo": "minecraft:coarse_dirt"
+    },
+    {
+      "blockOne": "minecraft:coarse_dirt",
+      "blockTwo": "minecraft:sand"
+    },
+    {
+      "blockOne": "minecraft:blue_ice",
+      "blockTwo": "minecraft:packed_ice"
+    },
+    {
+      "blockOne": "minecraft:packed_ice",
+      "blockTwo": "minecraft:ice"
+    },
+    {
+      "blockOne": "minecraft:ice",
+      "blockTwo": "minecraft:air"
+    },
+    {
+      "blockOne": "minecraft:stone_bricks",
+      "blockTwo": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "blockOne": "minecraft:wet_sponge",
+      "blockTwo": "minecraft:sponge"
+    },
+    {
+      "blockOne": "minecraft:infested_stone",
+      "blockTwo": "minecraft:stone"
+    },
+    {
+      "blockOne": "minecraft:infested_cobblestone",
+      "blockTwo": "minecraft:cobblestone"
+    },
+    {
+      "blockOne": "minecraft:infested_stone_bricks",
+      "blockTwo": "minecraft:stone_bricks"
+    },
+    {
+      "blockOne": "minecraft:infested_mossy_stone_bricks",
+      "blockTwo": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "blockOne": "minecraft:infested_cracked_stone_bricks",
+      "blockTwo": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "blockOne": "minecraft:infested_chiseled_stone_bricks",
+      "blockTwo": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "blockOne": "minecraft:infested_deepslate",
+      "blockTwo": "minecraft:deepslate"
+    },
+    {
+      "blockOne": "minecraft:stone",
+      "blockTwo": "minecraft:cobblestone"
+    },
+    {
+      "blockOne": "minecraft:stone_slab",
+      "blockTwo": "minecraft:cobblestone_slab"
+    },
+    {
+      "blockOne": "minecraft:stone_stairs",
+      "blockTwo": "minecraft:cobblestone_stairs"
+    },
+    {
+      "blockOne": "minecraft:deepslate",
+      "blockTwo": "minecraft:cobbled_deepslate"
+    },
+    {
+      "blockOne": "minecraft:deepslate_bricks",
+      "blockTwo": "minecraft:cracked_deepslate_bricks"
+    },
+    {
+      "blockOne": "minecraft:deepslate_tiles",
+      "blockTwo": "minecraft:cracked_deepslate_tiles"
+    },
+    {
+      "blockOne": "minecraft:mossy_cobblestone",
+      "blockTwo": "minecraft:cobblestone"
+    },
+    {
+      "blockOne": "minecraft:mossy_cobblestone_slab",
+      "blockTwo": "minecraft:cobblestone_slab"
+    },
+    {
+      "blockOne": "minecraft:mossy_cobblestone_stairs",
+      "blockTwo": "minecraft:cobblestone_stairs"
+    },
+    {
+      "blockOne": "minecraft:mossy_cobblestone_wall",
+      "blockTwo": "minecraft:cobblestone_wall"
+    },
+    {
+      "blockOne": "minecraft:mossy_stone_bricks",
+      "blockTwo": "minecraft:stone_bricks"
+    },
+    {
+      "blockOne": "minecraft:mossy_stone_brick_slab",
+      "blockTwo": "minecraft:stone_brick_slab"
+    },
+    {
+      "blockOne": "minecraft:mossy_stone_brick_stairs",
+      "blockTwo": "minecraft:stone_brick_stairs"
+    },
+    {
+      "blockOne": "minecraft:mossy_stone_brick_wall",
+      "blockTwo": "minecraft:stone_brick_wall"
+    },
+    {
+      "blockOne": "minecraft:snow",
+      "blockTwo": "minecraft:air"
+    },
+    {
+      "blockOne": "minecraft:snow_block",
+      "blockTwo": "minecraft:air"
+    },
+    {
+      "blockOne": "minecraft:powder_snow",
+      "blockTwo": "minecraft:air"
+    },
+    {
+      "blockOne": "minecraft:sand",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:gravel",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:red_sand",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:sandstone",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:sandstone_stairs",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:sandstone_slab",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:sandstone_wall",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:chiseled_sandstone",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:smooth_sandstone",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:smooth_sandstone_stairs",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:smooth_sandstone_slab",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:cut_sandstone",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:cut_sandstone_slab",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:red_sandstone",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:red_sandstone_stairs",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:red_sandstone_slab",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:red_sandstone_wall",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:chiseled_red_sandstone",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:smooth_red_sandstone",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:smooth_red_sandstone_stairs",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:smooth_red_sandstone_slab",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:cut_red_sandstone",
+      "blockTwo": "solar_apocalypse:dust"
+    },
+    {
+      "blockOne": "minecraft:cut_red_sandstone_slab",
+      "blockTwo": "solar_apocalypse:dust"
+    }
+  ],
+  "blockTransformationTagToBlock": [
+    {
+      "tag": "minecraft:leaves",
+      "block": "minecraft:air"
+    }
+  ],
+  "blockTransformationClassToBlock": [],
+  "phaseTwoDay": 240.0,
+  "phaseTwoSunSizeMultiplier": 3.0,
+  "blocksTurnToLavaDay": -1.0,
+  "lavaBlockIdentifiers": [
+    "minecraft:cobblestone",
+    "minecraft:cobblestone_slab",
+    "minecraft:cobblestone_stairs",
+    "minecraft:cobblestone_wall",
+    "minecraft:cobbled_deepslate",
+    "minecraft:cobbled_deepslate_slab",
+    "minecraft:cobbled_deepslate_stairs",
+    "minecraft:cobbled_deepslate_wall",
+    "minecraft:cracked_deepslate_tiles",
+    "minecraft:cracked_deepslate_bricks",
+    "minecraft:cracked_stone_bricks"
+  ],
+  "lavaBlockTags": [],
+  "lavaBlockClasses": [],
+  "cropGrowthSlowDownDay": 220.0,
+  "cropGrowthSlowDownMultiplier": 3,
+  "solarFireDamageMultiplier": 5.0,
+  "enablePhaseOneCustomSkyColor": true,
+  "phaseOneSkyColor": 16747520,
+  "enablePhaseTwoCustomSkyColor": true,
+  "phaseTwoSkyColor": 16729344,
+  "enableCustomSkyLight": true,
+  "enableHeatOverlay": true,
+  "heatOverlayFadeTime": 3.0,
+  "sunSizeTransitionTime": 3.0,
+  "skyColorTransitionTime": 3.0,
+  "fogColorTransitionTime": 3.0,
+  "apocalypseFogDay": 220.0,
+  "apocalypseFadeTime": 3.0,
+  "apocalypseFogMaximumDistance": 192.0,
+  "apocalypseFogMultiplier": 0.5,
+  "noCloudsDay": 240.0,
+  "cloudFadeTime": 3.0,
+  "enableHeatLayers": true,
+  "enableHeatLayersOnBlocks": false,
+  "heatLayers": [
+    {
+      "day": 260.0,
+      "layer": 100.0,
+      "sunSizeMultiplier": 3.25,
+      "enableCustomSkyColor": true,
+      "skyColor": 16724480
+    },
+    {
+      "day": 280.0,
+      "layer": 60.0,
+      "sunSizeMultiplier": 3.5,
+      "enableCustomSkyColor": true,
+      "skyColor": 16721920
+    },
+    {
+      "day": 300.0,
+      "layer": 50.0,
+      "sunSizeMultiplier": 3.75,
+      "enableCustomSkyColor": true,
+      "skyColor": 16719360
+    },
+    {
+      "day": 220.0,
+      "layer": 25.0,
+      "sunSizeMultiplier": 4.0,
+      "enableCustomSkyColor": true,
+      "skyColor": 16719360
+    },
+    {
+      "day": 240.0,
+      "layer": 0.0,
+      "sunSizeMultiplier": 5.0,
+      "enableCustomSkyColor": true,
+      "skyColor": 16711680
+    }
+  ],
+  "enableLightningPhases": true,
+  "lightningPhases": [
+    {
+      "day": 260.0,
+      "multiplier": 2.0
+    },
+    {
+      "day": 280.0,
+      "multiplier": 4.0
+    },
+    {
+      "day": 220.0,
+      "multiplier": 8.0
+    },
+    {
+      "day": 220.0,
+      "multiplier": 16.0
+    },
+    {
+      "day": 240.0,
+      "multiplier": 32.0
+    }
+  ],
+  "dimensionWhitelist": [
+    "minecraft:overworld"
+  ]
+}

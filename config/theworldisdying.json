@@ -1,0 +1,34 @@
+{
+  "doTraderSpawning": {
+    "day": 50,
+    "enabled": true
+  },
+  "randomTickSpeed100": {
+    "day": 100,
+    "enabled": true
+  },
+  "waterSourceConversion": {
+    "day": 150,
+    "enabled": true
+  },
+  "playersSleepingPercentage": {
+    "day": 180,
+    "enabled": false
+  },
+  "randomTickSpeed220": {
+    "day": 220,
+    "enabled": true
+  },
+  "naturalRegeneration": {
+    "day": 240,
+    "enabled": false
+  },
+  "universalAnger": {
+    "day": 330,
+    "enabled": false
+  },
+  "forgiveDeadPlayers": {
+    "day": 330,
+    "enabled": false
+  }
+}
